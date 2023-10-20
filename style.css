@@ -23,10 +23,6 @@ body{
 .headers span{
     color: rgb(46, 45, 45);
 }
-/* Add this CSS code to your stylesheet */
-.header-container a.active:active {
-    text-decoration: underline; /* Add underline when the link is active (clicked) */
-  }
   
 .input{
     border: 1px solid rgb(148, 146, 146);
