@@ -7,6 +7,11 @@ body{
     position: absolute;
     height: 120px;
     width: 100%;
+    
+}
+.header-container a{
+    text-decoration: none;
+
 }
 .headers{
     position: relative;
@@ -15,6 +20,14 @@ body{
     justify-content: space-between;
     margin: 30px;
 }
+.headers span{
+    color: rgb(46, 45, 45);
+}
+/* Add this CSS code to your stylesheet */
+.header-container a.active:active {
+    text-decoration: underline; /* Add underline when the link is active (clicked) */
+  }
+  
 .input{
     border: 1px solid rgb(148, 146, 146);
     border-radius: 30px;
